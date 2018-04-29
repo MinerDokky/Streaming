@@ -1,0 +1,881 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'Slabo';
+    src: url(fonts/slabo.ttf);
+}
+
+img.home {
+    width: 12px;
+}
+
+img.logom {
+    width: 40px;
+    float: left;
+    padding-top: 15px;
+    padding-left: 7px
+}
+
+h1 {
+    color: white;
+    font-family: 'Slabo';
+    text-align: center;
+    padding-top: 70px
+}
+
+h1.profil {
+    color: white;
+    text-align: center;
+    margin-top: -20px
+}
+
+h3.modifinfo {
+    text-align: center;
+    color: white;
+    font-family: 'Slabo';
+}
+
+p.connect {
+    padding-top: 10px;
+    text-align: center
+}
+
+div.actionf {
+    background-image: url(divs/action.jpg);
+    background-size: 260px;
+    background-size: cover;
+}
+
+p.actionf {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    letter-spacing: 10px
+}
+
+div.animation {
+    background-image: url(divs/animation.jpg);
+    background-size: 260px;
+    background-size: cover
+}
+
+p.animationf {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    letter-spacing: 5px
+}
+
+div.aventure {
+    background-image: url(divs/aventure.jpg);
+    background-size: 260px;
+    background-size: cover
+}
+
+p.aventuref {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    letter-spacing: 5px
+}
+
+div.comedie {
+    background-image: url(divs/comedie.jpg);
+    background-size: 260px;
+    background-size: cover
+}
+
+p.comedief {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    letter-spacing: 5px
+}
+
+div.drame {
+    background-image: url(divs/drame.jpg);
+    background-size: 260px;
+    background-size: cover
+}
+
+p.dramef {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    letter-spacing: 5px
+}
+
+div.fantastique {
+    background-image: url(divs/fantastic.jpg);
+    background-size: 260px;
+    background-size: cover
+}
+
+p.fantastiquef {
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    letter-spacing: 5px
+}
+
+div.guerre {
+    background-image: url(divs/guerre.jpg);
+    background-size: 260px;
+    background-size: cover
+}
+
+p.guerref {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    letter-spacing: 5px
+}
+
+div.historique {
+    background-image: url(divs/histoire.jpg);
+    background-size: 260px;
+    background-size: cover
+}
+
+p.historiquef {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    letter-spacing: 5px
+}
+
+div.horreur {
+    background-image: url(divs/horreur.jpg);
+    background-size: 260px;
+    background-size: cover
+}
+
+p.horreurf {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    letter-spacing: 5px
+}
+
+div.thriller {
+    background-image: url(divs/thriller.jpg);
+    background-size: 260px;
+    background-size: cover
+}
+
+p.thrillerf {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    letter-spacing: 5px
+}
+
+div.science {
+    background-image: url(divs/science.jpg);
+    background-size: 260px;
+    background-size: cover;
+}
+
+p.sciencef {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    letter-spacing: 5px
+}
+
+div.romance {
+    background-image: url(divs/romance.jpg);
+    background-size: 260px;
+    background-size: cover
+}
+
+p.romancef {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+
+div.actionf,
+.animation,
+.aventure,
+.comedie,
+.drame,
+.fantastique,
+.guerre,
+.historique,
+.horreur,
+.thriller,
+.science,
+.romance {
+    display: inline-block;
+    padding: 20px;
+    margin-left: 100px;
+    margin-top: 20px;
+    width: 250px;
+    height: 120px;
+    box-shadow: 0 5px 10px 0 rgba(15, 97, 119, 0.30);
+    border: solid 5px rgba(255, 255, 255, 0.90);
+    border-radius: 5px;
+}
+
+div.actionf:hover {
+    transform: scale(1.1);
+    transition: all 0.2s
+}
+
+div.animation:hover {
+    transform: scale(1.1);
+    transition: all 0.2s
+}
+
+div.aventure:hover {
+    transform: scale(1.1);
+    transition: all 0.2s
+}
+
+div.comedie:hover {
+    transform: scale(1.1);
+    transition: all 0.2s
+}
+
+div.drame:hover {
+    transform: scale(1.1);
+    transition: all 0.2s
+}
+
+div.fantastique:hover {
+    transform: scale(1.1);
+    transition: all 0.2s
+}
+
+div.guerre:hover {
+    transform: scale(1.1);
+    transition: all 0.2s
+}
+
+div.historique:hover {
+    transform: scale(1.1);
+    transition: all 0.2s
+}
+
+div.horreur:hover {
+    transform: scale(1.1);
+    transition: all 0.2s
+}
+
+div.thriller:hover {
+    transform: scale(1.1);
+    transition: all 0.2s
+}
+
+div.science:hover {
+    transform: scale(1.1);
+    transition: all 0.2s
+}
+
+div.romance:hover {
+    transform: scale(1.1);
+    transition: all 0.2s
+}
+
+div.actionf:active {
+    transform: scale(0.5);
+    transition: all 0.2s
+}
+
+div.animation:active {
+    transform: scale(0.5);
+    transition: all 0.2s
+}
+
+div.aventure:active {
+    transform: scale(0.5);
+    transition: all 0.2s
+}
+
+div.comedie:active {
+    transform: scale(0.5);
+    transition: all 0.2s
+}
+
+div.drame:active {
+    transform: scale(0.5);
+    transition: all 0.2s
+}
+
+div.fantastique:active {
+    transform: scale(0.5);
+    transition: all 0.2s
+}
+
+div.guerre:active {
+    transform: scale(0.5);
+    transition: all 0.2s
+}
+
+div.historique:active {
+    transform: scale(0.5);
+    transition: all 0.2s
+}
+
+div.horreur:active {
+    transform: scale(0.5);
+    transition: all 0.2s
+}
+
+div.thriller:active {
+    transform: scale(0.5);
+    transition: all 0.2s
+}
+
+div.science:active {
+    transform: scale(0.5);
+    transition: all 0.2s
+}
+
+div.romance:active {
+    transform: scale(0.5);
+    transition: all 0.2s
+}
+
+input[type=search].search {
+    float: right;
+    margin-top: 15px;
+    margin-right: 15px;
+    color: black;
+    width: 10%;
+    background-image: linear-gradient(to top, #F2F1EF 0%, #ECF0F1 100%);
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+}
+
+input[type=submit].selectfs {
+    float: right;
+    margin-top: 15px;
+    margin-right: 10px;
+    color: white;
+    width: 10%;
+    background-image: linear-gradient(to top, #2C3E50 0%, #2C3E51 100%);
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+input[type=submit].selectfs:active {
+    transform: scale(0.9);
+    transition: all 0.1s
+}
+
+
+div.top {
+    height: 400px;
+    background-color: #ECF0F1;
+    margin-top: -21px
+}
+
+div.mid {
+    height: 400px;
+    background-color: #E74C3C;
+    margin-top: -21px;
+    margin-bottom: -40px
+}
+
+h3.pq {
+    text-align: center;
+    padding-top: 100px
+}
+
+h3.pq2 {
+    text-align: center;
+    padding-top: 100px;
+    color: white
+}
+
+h3.type {
+    text-align: center;
+    padding-top: 10px
+}
+
+p.pourquoi {
+    text-align: center;
+}
+
+p.pourquoi2 {
+    text-align: center;
+    padding-top: 15px;
+    color: #E7B237
+}
+
+input[type=submit].souscrire {
+    display: block;
+    margin: 0 auto;
+    color: white;
+    width: 10%;
+    box-shadow: 0 5px 10px 0 rgba(15, 97, 119, 0.30);
+    background-image: linear-gradient(to top, #2C3E50 0%, #2C3E51 100%);
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+input[type=submit].souscrire:hover {
+    transform: scale(1.1);
+    transition: all 0.5s
+}
+
+input[type=submit].souscrire:active {
+    transform: scale(0.7);
+    transition: all 0.1s
+}
+
+input[type=submit].abonnement {
+    color: white;
+    width: 15%;
+    box-shadow: 0 5px 10px 0 rgba(231, 165, 29, 0.50);
+    background-image: linear-gradient(to top, #E7B237 0%, #E7A51D 100%);
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 13.5%;
+    margin-top: 5%
+}
+
+input[type=submit].abonnement:hover {
+    transform: scale(1.1);
+    transition: all 0.5s
+}
+
+input[type=submit].abonnement:active {
+    transform: scale(0.7);
+    transition: all 0.1s
+}
+
+.footerr {
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    margin-top: 40px
+}
+
+input[type=submit].inscriptionconnection {
+    display: block;
+    padding: 0 auto;
+    color: white;
+    width: 15%;
+    box-shadow: 0 5px 10px 0 rgba(238, 82, 83, 0.30);
+    background-image: linear-gradient(to top, #ee5253 50%, #ff6b6b 100%);
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+div.modifinfo {
+    background-color: rgba(255, 255, 255, 0.90);
+    height: 400px;
+    width: 400px;
+    float: right;
+    margin-right: 20px;
+    border-radius: 10px
+}
+
+input[type=text].log {
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    width: 40%;
+    border: none;
+    padding: 6px;
+    box-shadow: 0 5px 10px 0 rgba(47, 53, 66, 0.10)
+}
+
+input[type=email].email {
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    width: 40%;
+    border: none;
+    padding: 6px;
+    box-shadow: 0 5px 10px 0 rgba(47, 53, 66, 0.10)
+}
+
+input[type=password].mdp {
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    width: 40%;
+    border: none;
+    padding: 6px;
+    box-shadow: 0 5px 10px 0 rgba(47, 53, 66, 0.10);
+}
+
+input[type=submit].valider {
+    background-color: rgba(46, 213, 115, 1.0);
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    width: 40%;
+    border: none;
+    padding: 6px;
+    cursor: pointer;
+    box-shadow: 0 5px 10px 0 rgba(46, 213, 115, 0.30)
+}
+
+label {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px
+}
+
+input[type=submit].valider:active {
+    width: 45%;
+    transition: all 0.3s
+}
+
+input[type=text].log:focus {
+    border: 1px solid rgba(46, 213, 115, 1.0);
+    width: 45%;
+    transition: all 0.3s
+}
+
+input[type=email].email:focus {
+    border: 1px solid rgba(46, 213, 115, 1.0);
+    width: 45%;
+    transition: all 0.3s
+}
+
+input[type=password].mdp:focus {
+    border: 1px solid rgba(46, 213, 115, 1.0);
+    width: 45%;
+    transition: all 0.3s
+}
+
+div.informationactuelle {
+    float: left;
+    margin-left: 20px;
+    height: 400px;
+    width: 800px;
+    background-color: rgba(255, 255, 255, 0.90);
+    border-radius: 10px;
+}
+
+
+
+input[type=submit].retour {
+    display: block;
+    margin: 0 auto;
+    border: none;
+    color: white;
+    width: 20%;
+    box-shadow: 0 5px 10px 0 rgba(247, 159, 31, 0.40);
+    padding: 6px;
+    background-color: #ffcc4d;
+    cursor: pointer;
+    border-radius: 4px
+}
+
+input[type=submit].retour:hover {
+    width: 30%;
+    transition: all 0.3s
+}
+
+input[type=submit].retour:active {
+    transform: scale(1.5);
+    transition: all 0.2s
+}
+
+
+div.dimension {
+    padding: 20px;
+    padding-bottom: 15px;
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px 0 rgba(15, 97, 119, 0.30);
+
+}
+
+div.dimension {
+    margin-top: 60px;
+}
+
+.logowarning {
+    width: 100px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: -30px
+}
+
+h1.erreur {
+    color: black;
+    text-align: center
+}
+
+p.indication {
+    text-align: center
+}
+
+img.films {
+    width: 120px;
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+    padding-right: 10px
+}
+
+p.titre {
+    color: white;
+    margin-top: 35px;
+}
+
+p.description {
+    color: white
+}
+
+div.wrapper {
+    max-width: 100%;
+}
+
+div.modifinfo:hover{
+    border-bottom: solid 5px rgba(46, 213, 115, 1.0);
+    transition: all 0.2s;
+}
+
+div.informationactuelle:hover{
+    border-bottom: solid 5px #E7B237;
+    transition: all 0.2s;
+}
+
+div.adminpanel{
+    background-color: rgba(255, 255, 255, 0.90);
+    width: 95%;
+    height: 600px;
+    margin-top: 35px;
+    padding-top: 100px;
+    padding-left: 20px;
+    float: left;
+    margin-left: 20px;
+    border-radius: 10px
+
+
+}
+
+div.dimension2 {
+    padding: 20px;
+    padding-bottom: 15px;
+    margin: 0 auto;
+    width: 400px;
+    height: 300px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px 0 rgba(15, 97, 119, 0.30);
+
+}
+
+div.dimension2 {
+    margin-top: 40px;
+}
+
+div.dimension23 {
+    padding: 20px;
+    padding-bottom: 15px;
+    margin: 0 auto;
+    width: 400px;
+    height: 450px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px 0 rgba(15, 97, 119, 0.30);
+
+}
+
+div.dimension23 {
+    margin-top: 40px;
+}
+
+.paiement{width: 300px;display: block;margin: 0 auto;padding-top: 20px}
+
+
+select.choix{
+    background-color: white;
+    color: black;
+    border: 0;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+
+div.actionf2 {
+    background-image: url(divs/actionserie.jpg);
+    background-size: 260px;
+    background-size: cover;
+}
+
+p.actionf2 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    letter-spacing: 10px
+}
+
+div.animation2 {
+    background-image: url(divs/comicsanimation.jpg);
+    background-size: 260px;
+    background-size: cover
+}
+
+p.animationf2{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    letter-spacing: 5px
+}
+
+div.aventure2 {
+    background-image: url(divs/aventureserie.jpg);
+    background-size: 260px;
+    background-size: cover
+}
+
+p.aventuref2 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    letter-spacing: 5px
+}
+
+div.comedie2 {
+    background-image: url(divs/comedieserie.jpg);
+    background-size: 260px;
+    background-size: cover
+}
+
+p.comedief2 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    letter-spacing: 5px
+}
+
+div.drame2 {
+    background-image: url(divs/drameserie.jpg);
+    background-size: 260px;
+    background-size: cover
+}
+
+p.dramef2 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    letter-spacing: 5px
+}
+
+div.fantastique2 {
+    background-image: url(divs/fantasticserie.jpg);
+    background-size: 260px;
+    background-size: cover
+}
+
+p.fantastiquef2 {
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    letter-spacing: 5px
+}
+
+
+
+div.actionf2,
+.animation2,
+.aventure2,
+.comedie2,
+.drame2,
+.fantastique2{
+    display: inline-block;
+    padding: 20px;
+    margin-left: 100px;
+    margin-top: 20px;
+    width: 250px;
+    height: 120px;
+    box-shadow: 0 5px 10px 0 rgba(15, 97, 119, 0.30);
+    border: solid 5px rgba(255, 255, 255, 0.90);
+    border-radius: 5px;
+}
+
+div.actionf2:hover {
+    transform: scale(1.1);
+    transition: all 0.2s
+}
+
+div.animation2:hover {
+    transform: scale(1.1);
+    transition: all 0.2s
+}
+
+div.aventure2:hover {
+    transform: scale(1.1);
+    transition: all 0.2s
+}
+
+div.comedie2:hover {
+    transform: scale(1.1);
+    transition: all 0.2s
+}
+
+div.drame2:hover {
+    transform: scale(1.1);
+    transition: all 0.2s
+}
+
+div.fantastique2:hover {
+    transform: scale(1.1);
+    transition: all 0.2s
+}
+
+
+
+div.actionf2:active {
+    transform: scale(0.5);
+    transition: all 0.2s
+}
+
+div.animation2:active {
+    transform: scale(0.5);
+    transition: all 0.2s
+}
+
+div.aventure2:active {
+    transform: scale(0.5);
+    transition: all 0.2s
+}
+
+div.comedie2:active {
+    transform: scale(0.5);
+    transition: all 0.2s
+}
+
+div.drame2:active {
+    transform: scale(0.5);
+    transition: all 0.2s
+}
+
+div.fantastique2:active {
+    transform: scale(0.5);
+    transition: all 0.2s
+}
+
+img.mailto{
+    width:100px;
+    display: block;
+    margin: 0 auto;
+}

@@ -1,0 +1,124 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{background-color: black}
+
+img{
+	width: 20%;
+	animation: animelog 5s;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 20px
+}
+
+input[type=submit].valider {
+    width: 10%;
+    background-color: #EA2027;
+    color: #fff;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 5px 10px 0 rgba(229, 80, 57,0.10);
+    font-family: 'Slabo';
+    letter-spacing: 5px;
+    font-size: 15px;
+    padding-bottom: -20px;
+    display: block;
+    margin: 0 auto;
+    animation: zoomin 6s;
+
+
+}
+
+input[type=submit].valider2 {
+    width: 10%;
+    background-color: #EA2027;
+    color: #fff;
+    padding: 14px 20px;
+    margin: 6px 0;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 5px 10px 0 rgba(229, 80, 57,0.10);
+    font-family: 'Slabo';
+    letter-spacing: 5px;
+    font-size: 15px;
+    padding-bottom: -20px;
+    display: block;
+    margin: 0 auto;
+    animation: zoomout 6.2s;
+
+
+}
+
+
+@keyframes animelog {
+	from {
+		    opacity: 0;
+		    -webkit-transform: translate3d(0, 100px, 0);
+		    transform: translate3d(0, 100px, 0);
+	}
+
+	30% {
+
+		    -webkit-transform: translate3d(0, 100px, 0);
+		    transform: translate3d(0, 100px, 0);			
+	}
+
+	50% {
+			opacity: 1;
+	}	
+
+	60% {
+			opacity: 1;
+		    -webkit-transform: translate3d(0, 100px, 0);
+		    transform: translate3d(0, 100px, 0);
+	}
+
+	 100%{
+	
+			-webkit-transform: translate3d(0, 0, 0);
+		    transform: translate3d(0, 0, 0);
+
+		    
+	}
+
+}
+
+@keyframes zoomin {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-3000px,0 ,0 );
+    transform: translate3d(-3000px, 0,0 );
+  }
+  50% 
+  {
+  	opacity: 1;
+  }
+
+  100% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes zoomout {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(3000px,0 ,0 );
+    transform: translate3d(3000px, 0,0 );
+  }
+  50% 
+  {
+  	opacity: 1;
+  }
+
+  100% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+a{text-decoration: none}
